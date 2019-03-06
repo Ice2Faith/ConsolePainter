@@ -13,13 +13,14 @@ int main(int argc, char * argv[])
 void ConsolePainter(void)
 {
 	ConsoleControl CON;
+	CON.SetConsoleTitleW("ConsolePainter Designed by Ice2Faith");
 	CON.SetConsoleColor();
 	cout << "USING GUID" << endl;
-	CON.SleepPrint(30,"×¼±¸Ê±£º\n5.Ñ¡Ôñ»­°å±³¾°ÑÕÉ«\n");
-	CON.SleepPrint(20, "»­Í¼Ê±£º\n1.½øÐÐ»­Í¼¡£\n2.²»½øÐÐ»­Í¼¡£\n3.Ñ¡Ôñ»­±ÊÑùÊ½¡£\n4.Ñ¡Ôñ»­±ÊÑÕÉ«¡£\n6.Çå¿Õ»­°å¡£\n");
-	CON.SleepPrint(20, "Tips£º\nÔÚÖ´ÐÐÇÐ»»²Ù×÷Ê±£¬Ñ¡ÔñÍê±Ï°´ÆäËû¼üÈ·ÈÏ¼´¿É¡£\nWarning£º\nÈ«³ÌÇë²»ÒªÓÃÊó±êµã»÷ÆÁÄ»£¬·ñÔòÄãÖ»ÄÜÖØÐÂ´ò¿ª³ÌÐòÁË\nÔÄ¶ÁÍê±Ïºó£¬ÈÎÒâ¼ü¼ÌÐø\n\n");
+	CON.SleepPrint(30,"å‡†å¤‡æ—¶ï¼š\n5.é€‰æ‹©ç”»æ¿èƒŒæ™¯é¢œè‰²\n");
+	CON.SleepPrint(20, "ç”»å›¾æ—¶ï¼š\n1.è¿›è¡Œç”»å›¾ã€‚\n2.ä¸è¿›è¡Œç”»å›¾ã€‚\n3.é€‰æ‹©ç”»ç¬”æ ·å¼ã€‚\n4.é€‰æ‹©ç”»ç¬”é¢œè‰²ã€‚\n6.æ¸…ç©ºç”»æ¿ã€‚\n");
+	CON.SleepPrint(20, "Tipsï¼š\nåœ¨æ‰§è¡Œåˆ‡æ¢æ“ä½œæ—¶ï¼Œé€‰æ‹©å®Œæ¯•æŒ‰å…¶ä»–é”®ç¡®è®¤å³å¯ã€‚\nWarningï¼š\nå…¨ç¨‹è¯·ä¸è¦ç”¨é¼ æ ‡ç‚¹å‡»å±å¹•ï¼Œå¦åˆ™ä½ åªèƒ½é‡æ–°æ‰“å¼€ç¨‹åºäº†\né˜…è¯»å®Œæ¯•åŽï¼Œä»»æ„é”®ç»§ç»­\n\n");
 	CON.Getchf();
-	cout << "Äã¿ÉÒÔ°´ \"5\"ÇÐ»»±³¾°ÑÕÉ«£¬ÆäËû¼üÈ·ÈÏÑ¡Ôñ." << endl;
+	cout << "ä½ å¯ä»¥æŒ‰ \"5\"åˆ‡æ¢èƒŒæ™¯é¢œè‰²ï¼Œå…¶ä»–é”®ç¡®è®¤é€‰æ‹©." << endl;
 	int bgcolor = 15,ftcolor=0,pentype=0,sptype=0;
 	CON.SetConsoleColor(ftcolor, bgcolor);
 	int i = 0;
