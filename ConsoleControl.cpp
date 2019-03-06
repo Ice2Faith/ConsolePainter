@@ -40,14 +40,14 @@ char ConsoleControl::Getchf(void)
 void ConsoleControl::GetHelp()
 {
     char help[800]= {"SetColor:\n\
-0 = 菜弼       8 = 子弼\n\
-1 = 清弼       9 = 記清弼\n\
-2 = 駄弼       10 = 記駄弼\n\
-3 = 燃駄弼     11 = 記燃駄弼\n\
-4 = 碕弼       12 = 記碕弼\n\
-5 = 從弼       13 = 記從弼\n\
-6 = 仔弼       14 = 記仔弼\n\
-7 = 易弼       15 = 疏易弼\n\
+0 = 黑色       8 = 灰色\n\
+1 = 蓝色       9 = 淡蓝色\n\
+2 = 绿色       10 = 淡绿色\n\
+3 = 浅绿色     11 = 淡浅绿色\n\
+4 = 红色       12 = 淡红色\n\
+5 = 紫色       13 = 淡紫色\n\
+6 = 黄色       14 = 淡黄色\n\
+7 = 白色       15 = 亮白色\n\
 SetGotoxy:\n\
 Set display space to lines,cols\n\
 SetConsoleSize:\n\
